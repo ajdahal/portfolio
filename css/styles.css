@@ -110,6 +110,7 @@ body {
   }
  
 /* Center the main content horizontally and keep it left-aligned */
+/* Center the main content horizontally and keep it left-aligned */
 .content {
     max-width: 800px; /* Adjust the width as needed */
     margin: 0 auto; /* Center horizontally */
@@ -118,19 +119,66 @@ body {
   }
   
   /* Style for the navigation title */
-  .nav-title {
+.nav-title {
     font-size: 1.8rem;
     font-weight: bold;
     color: black;
     text-decoration: none;
   }
   
-  /* Additional styling for the publication section */
-  .publication {
-    margin-bottom: 20px;
+  /* Style for the plain link */
+.plain-link {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
   }
   
-  .publication a {
-    color: blue;
-    text-decoration: underline;
-  }  
+.plain-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  /* Style for the ordered list in publications */
+
+ol {
+    padding-left: 20px; /* Indent the list */
+  }
+  
+  /* Style for the 'Read Publication' link */
+    .read-publication {
+    display: block; /* Place on a new line */
+    margin-top: 5px; /* Space above the link */
+    color: blue; /* Link color */
+    text-decoration: underline; /* Underline the link */
+  }
+  
+.read-publication:hover {
+    color: darkblue; /* Darker color on hover */
+  }
+
+  /* Style for section headings */
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  /* Style for job and education titles */
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Style for unordered lists under experience */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Style for ordered lists under education */
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  /* Style for list items */
+  li {
+    margin-bottom: 10px;
+  }
+  
