@@ -4,9 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    text-align: center; /* Center align text content */
+    text-align: center;
   }
   
+  /* Navigation Bar */
   nav {
     display: flex;
     justify-content: space-between;
@@ -15,15 +16,15 @@ body {
     padding: 15px 20px;
   }
   
-  nav a {
+  .nav-title {
+    font-size: 1.8rem;
+    font-weight: bold;
     color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
   }
   
   nav ul {
-    list-style: none;
     display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
   }
@@ -32,8 +33,23 @@ body {
     margin: 0 10px;
   }
   
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  /* Header */
   header {
     padding: 40px 20px;
+  }
+  
+  header .profile {
+    max-width: 800px;
+    margin: 0 auto; /* Center the profile section */
+    display: flex;
+    align-items: center;
+    gap: 20px;
   }
   
   header img {
@@ -41,18 +57,11 @@ body {
     border-radius: 50%;
   }
   
-  header .profile {
-    max-width: 800px;
-    margin: 0 auto; /* Center align content */
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
   header .description {
-    text-align: left; /* Align text left inside description */
+    text-align: left;
   }
   
+  /* Main Content */
   main {
     padding: 40px 20px;
     max-width: 800px;
@@ -68,27 +77,23 @@ body {
     border: 1px solid #ddd;
   }
   
-  footer {
-    padding: 20px 0;
-    text-align: center;
-    border-top: 1px solid #ddd; /* Light border instead of background color */
-  }
-  
-  footer ul {
-    list-style: none;
+  /* Contact Section */
+  .contact {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between footer links */
-    padding: 0;
-    margin: 0;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
   }
   
-  footer ul li {
-    display: inline; /* Align links in one row */
-  }
-  
-  footer ul li img {
+  .contact img {
     width: 24px;
     height: 24px;
     vertical-align: middle;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
   }  
