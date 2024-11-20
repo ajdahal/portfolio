@@ -100,4 +100,37 @@ body {
     text-decoration: none;
     color: black;
     font-size: 1rem;
+  }
+
+  .research-content {
+    max-width: 800px;
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: left; /* Left-align the text */
+    padding: 20px;
+  }
+ 
+/* Center the main content horizontally and keep it left-aligned */
+.content {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    text-align: left; /* Ensure left alignment */
+  }
+  
+  /* Style for the navigation title */
+  .nav-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Additional styling for the publication section */
+  .publication {
+    margin-bottom: 20px;
+  }
+  
+  .publication a {
+    color: blue;
+    text-decoration: underline;
   }  
