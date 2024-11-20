@@ -20,7 +20,9 @@ body {
     font-size: 1.8rem;
     font-weight: bold;
     color: white;
+    text-decoration: none;
   }
+  
   
   nav ul {
     display: flex;
@@ -54,8 +56,10 @@ body {
   
   header img {
     width: 150px;
-    border-radius: 50%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0; /* Remove rounded corners */
   }
+  
   
   header .description {
     text-align: left;
