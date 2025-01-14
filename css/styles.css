@@ -23,6 +23,16 @@ body {
     text-decoration: none;
   }
   
+  .news-scroll {
+    display: block; /* Ensures block-level alignment */
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    padding: 10px;
+    margin: 20px auto; /* Center news section */
+    border: 1px solid #ddd;
+  }
   
   nav ul {
     display: flex;
@@ -70,16 +80,6 @@ body {
     padding: 40px 20px;
     max-width: 800px;
     margin: 0 auto; /* Center the main content horizontally */
-  }
-  
-  .news-scroll {
-    text-align: left;
-    max-height: 200px;
-    overflow-y: auto;
-    background: white;
-    padding: 10px;
-    margin: 20px auto; /* Center news section */
-    border: 1px solid #ddd;
   }
   
   /* Contact Section */
