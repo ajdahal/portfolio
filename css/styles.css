@@ -73,6 +73,7 @@ body {
   }
   
   .news-scroll {
+    text-align: left;
     max-height: 200px;
     overflow-y: auto;
     background: white;
@@ -89,7 +90,7 @@ body {
     gap: 20px;
     margin-top: 20px;
   }
-  
+
   .contact img {
     width: 48px;
     height: 48px;
